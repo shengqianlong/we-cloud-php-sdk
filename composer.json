@@ -1,0 +1,17 @@
+{
+    "name": "e-gets/we-cloud-php-sdk",
+    "require": {
+      "phpunit/phpunit": "^8.5",
+      "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+  "autoload": {
+    "psr-4": {
+      "WeClound\\": "src"
+
+    },
+    "files": ["common/functions.php"]
+  }
+}
