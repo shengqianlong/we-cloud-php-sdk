@@ -7,17 +7,17 @@ class WeCloundUploadImageFileRequest extends WeCloudRequest
      * 用于校验文件完整性
      * @var
      */
-    public $fileHash;
+    private $fileHash;
     /**
      * 用于校验文件完整性
      * @var
      */
-    public $file;
+    private $file;
     /**
      * 上传后，自定义图片处理信息json字符串
      * @var
      */
-    public $customImageInfo;
+    private $customImageInfo;
     /**
      * 上传凭证
      * @var
